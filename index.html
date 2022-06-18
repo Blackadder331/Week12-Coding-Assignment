@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden INV</title>
+    <link rel="icon" type="image/x-icon" href="/images/ORDEN-favicon.png">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="crud-style.css">
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-xxl navbar-dark fixed-top bg-dark">
+      <div class="container" id="nav-custom">
+        <!-- <a class="navbar-brand" href="#">Orden INV</a> -->
+        <a href="#"><img src="images/ORDEN-logo.png"  class="logo" style="max-height: 60px" alt="ORDEN INV Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <br>
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Rentals</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+</header>
+<main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="bd-placeholder-img">
+            <div class="container">
+              <!-- <div class="carousel-caption text-start">
+                <h1>Example headline.</h1>
+                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="slider-2">
+            <div class="container">
+              <!-- <div class="carousel-caption text-start">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="slider-3">
+            <div class="container">
+              <!-- <div class="carousel-caption text-start">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img class="slider-4">
+            <div class="container">
+              <!-- <div class="carousel-caption text-start">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    
+
+    
+    <!-- My house listings -->
+    <div class="container">
+        <div id="new-house" class="jumbotron p-5 mt-5 mb-4 bg-light">
+            <h1>Add a new listing</h1>
+            <input type="text" id="new-house-name" class="form-control"> <br>
+            <button id="create-new-house" class="btn btn-primary form-control animate__animated animate__fadeInUp">Create</button>
+        </div>
+
+        <div id="app">
+            <!-- JS outputs here -->
+        </div> 
+    </div>
+
+
+
+<!-- TEST HRZ CARD-->
+<div class="container" style="margin-bottom: 3rem;">
+<div class="card mb-3" style="max-width: 1440px;">
+    <div class="row g-0">
+      <div class="col-lg-6">
+        <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-lg-6">
+        <div class="card-body" id="hrz-card">
+          <h2 class="card-title">Downtown living in Northwest Arkansas</h2><br>
+          <p class="card-text">Make the most of our city with quick acesss to local shops, farmers markets, world-class resturants, parks & greenspaces, and the Northwest Arkansas Greenway biketrail. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="container">
+            <br>
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>&copy; 2019–2021 Orden INV, LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <br>
+         </div>
+        </footer>
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="crud-app.js"></script>
+</body>
+</html>

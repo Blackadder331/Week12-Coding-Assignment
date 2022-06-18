@@ -1,0 +1,248 @@
+/* CRUD APP STYLES */
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("/fonts/NeueMontreal-Regular.ttf") format("truetype"),
+        url("/fonts/NeueMontreal-Italic.ttf") format("truetype"),
+         url("/fonts/NeueMontreal-Bold.ttf") format("truetype"),
+         url("/fonts/NeueMontreal-Light.ttf") format("truetype");
+  }
+  
+
+
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("/fonts/NeueMontreal-Bold.ttf") format("truetype");
+       font-weight: bold;
+}
+
+
+.navbar {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    background-color: #242C33 !important;
+    border-radius: 0px !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus:not {
+    border: none;
+}
+
+
+
+/* @font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Light.otf") format("opentype");
+} */
+
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+* {
+    font-family: "Neue Montreal", Helvetica, Arial, sans-serif;
+    color: #242C33;
+}
+strong {
+    font-weight: 700;
+    font-weight: bold !important;
+}
+
+body {
+    background-color: #F0EADD;
+    padding-bottom: 0rem;
+} 
+
+footer {
+    background-color: #242C33;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+footer p {
+    color: #F0EADD;
+}
+
+main {
+    padding-bottom: 6rem;
+}
+
+.slider-2 {
+  background-image: url(images/hjem3.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider-3 {
+    background-image: url(https://images.pexels.com/photos/688835/pexels-photo-688835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-4 {
+    background-image: url(images/logi1.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-primary {
+    background-color: #FF5F00 !important;
+    border-color: #FF5F00 !important;
+}
+
+.btn-primary:hover {
+    background-color: #e15301 !important;
+    border-color: #e15301 !important;
+}
+
+.btn-primary:active {
+    background-color: #e15301 !important;
+    border-color: #e15301 !important;
+}
+
+.btn-primary:focus,
+.btn-primary:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.btn-danger {
+    background-color: transparent !important;
+    border-color: #242C33 !important;
+    color: #242C33 !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-danger:hover {
+    background-color: #242C33 !important;
+    border-color: #242C33 !important;
+    color: #fff !important;
+}
+
+.btn-danger:active {
+    background-color: #242C33 !important;
+    border-color: #242C33 !important; 
+    color: #fff !important;
+}
+
+.btn-danger:focus,
+.btn-danger:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+a {
+    color: #FF5F00;
+}
+
+a:hover {
+    color: #e15301 !important;
+}
+
+a:active {
+    color: #e15301 !important;
+}
+
+
+.btn-danger:focus,
+.btn-danger:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+
+.card {
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    border: none;
+    padding: 3rem 3rem;
+}
+
+.card-body{
+    padding: 3rem 3rem;
+}
+
+*{
+    border-radius: 2px !important;
+}
+
+#app {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/* Custom nav  */
+.navbar-toggler-icon {
+    background-image: url(images/Hamburger.png) !important;
+}
+
+button[aria-expanded="true"] .navbar-toggler-icon{
+   background-image: url(images/CloseX.png) !important;
+}
+
+.navbar-toggler {
+    padding: 0px !important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .card-body {
+        padding: 2rem 2rem;
+    }
+
+    .card-header {
+        padding: 2rem 2rem;
+    }
+
+    #new-house {
+        padding: 0px;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    #hrz-card{
+        padding: 2.5rem 2rem;
+    }
+
+    .p-5 {
+        padding: 2.5rem 2rem !important;
+    }
+
+    #nav-custom {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #inner-body {
+        padding: 2rem 0rem;
+    }
+
+    .room-p {
+        padding: 0rem 2rem;
+    }
+}
